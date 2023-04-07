@@ -1,7 +1,16 @@
+import { Card } from "../Card";
+import { Location } from "../Location";
+
 import * as C from "./styles";
 
 const Weather = () => {
-  return <C.Container></C.Container>;
+  return (
+    <Card>
+      <C.Container>
+        <Location />
+      </C.Container>
+    </Card>
+  );
 };
 
 export default Weather;

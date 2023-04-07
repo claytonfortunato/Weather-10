@@ -12,7 +12,7 @@ export const defaultTheme = {
     yellow100: "#FBDB60",
     yellow300: "#F6C833",
     yellow500: "#E5BB46",
-    white: "#FFFFFF",
+    white: "#FFF",
   },
 
   background: {
