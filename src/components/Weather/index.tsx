@@ -5,7 +5,7 @@ import * as C from "./styles";
 
 const Weather = () => {
   return (
-    <Card>
+    <Card padding="sm" gridArea="now">
       <C.Container>
         <Location />
       </C.Container>
