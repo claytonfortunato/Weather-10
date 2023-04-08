@@ -5,7 +5,7 @@ interface TemperaturesProps {
   max: number;
 }
 
-export const Temperaturas = ({ min, max }: TemperaturesProps) => {
+export const Temperatures = ({ min, max }: TemperaturesProps) => {
   return (
     <C.Container>
       {max}° <span>{min}°</span>

@@ -24,3 +24,35 @@ export const Container = styled.div`
     border-radius: 1rem;
   }
 `;
+
+export const ContainerTemp = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+
+  font-size: 2rem;
+  line-height: 2.4rem;
+
+  span {
+    position: relative;
+
+    font-size: 8.8rem;
+    line-height: 10.6rem;
+    color: ${(props) => props.theme.colors.white};
+
+    &::before {
+      content: "°C";
+      display: block;
+
+      position: absolute;
+      top: 2.9rem;
+      right: -3rem;
+
+      font-size: 2.4rem;
+      line-height: 2.9px;
+      color: ${(props) => props.theme.colors.gray300};
+    }
+  }
+`;
