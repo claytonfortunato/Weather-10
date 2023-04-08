@@ -4,6 +4,8 @@ import cloud from "../../assets/icon/color-cloudy.svg";
 import styled from "styled-components";
 
 export const Container = styled.div`
+  min-height: 100%;
+
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
@@ -15,13 +17,31 @@ export const Container = styled.div`
 
     top: 0;
     left: 0;
-    height: 480px;
-    width: 480px;
+    height: 100%;
+    width: 100%;
 
     background-image: url(${background});
     background-size: cover;
     background-position: bottom right;
     border-radius: 1rem;
+  }
+
+  @media (min-width: 914px) {
+    min-width: 48rem;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+
+      top: -5.6rem;
+      left: -5.2rem;
+      width: 14.6rem;
+      height: 14.6rem;
+
+      background: url(${cloud}) no-repeat;
+      background-size: contain;
+    }
   }
 `;
 
