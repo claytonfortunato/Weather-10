@@ -56,3 +56,11 @@ export const ContainerTemp = styled.div`
     }
   }
 `;
+
+export const StatisticsContainer = styled.ul`
+  margin-top: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+`;
