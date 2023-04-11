@@ -43,6 +43,14 @@ export const Container = styled.div`
       background-size: contain;
     }
   }
+
+  @media (min-width: 1300px) {
+    &::after {
+      left: -8.2rem;
+      width: 17.6rem;
+      height: 17.6rem;
+    }
+  }
 `;
 
 export const ContainerTemp = styled.div`
