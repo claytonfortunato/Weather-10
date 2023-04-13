@@ -30,8 +30,8 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Javascript
-- CSS
+- Typescript
+- Styled Components
 - Figma
 
 
