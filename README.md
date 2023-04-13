@@ -24,7 +24,7 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
   
 ## 👾 Deploy
 
-
+[Weather Forecast](https://weather-10.vercel.app/)
 
 ## 🚀 Tecnologias
 
